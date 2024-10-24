@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "sass scss/custom.scss:css/style.css --style compressed",
     "watch": "sass --watch scss/custom.scss:css/style.css"
   },
   "keywords": [],
